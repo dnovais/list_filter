@@ -1,21 +1,18 @@
-# ListFilter
+# ListFilter: Desafio 02 - Filtragem em listas
 
-**TODO: Add description**
+## Sobre o desafio
 
-## Installation
+Nesse desafio, você deverá criar um novo projeto com uma função que, dada uma lista de strings que representem números ou não (exemplo `["1", "3", "6", "43", "banana", "6", "abc"]`), filtre todos os elementos numéricos da lista e retorne quantos números ímpares existem nessa lista.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `list_filter` to your list of dependencies in `mix.exs`:
+### Executando
+
+Para executar e testar a implementação a partir do terminal, rode `iex -S mix` dentro do diretório raiz do projeto. Em seguida:
 
 ```elixir
-def deps do
-  [
-    {:list_filter, "~> 0.1.0"}
-  ]
-end
+iex> ListFilter.call(["1", "3", "6", "43", "banana", "6", "abc"])
+...> 3
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/list_filter](https://hexdocs.pm/list_filter).
+### Rodando os testes
 
+Para rodar os testes a partir do terminal, rode `mix test` dentro do diretório raiz do projeto.
